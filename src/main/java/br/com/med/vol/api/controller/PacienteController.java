@@ -1,6 +1,9 @@
 package br.com.med.vol.api.controller;
 
-import br.com.med.vol.api.paciente.*;
+import br.com.med.vol.api.domain.paciente.DadosListagemPaciente;
+import br.com.med.vol.api.domain.paciente.Paciente;
+import br.com.med.vol.api.domain.paciente.PacienteRepository;
+import br.com.med.vol.api.domain.paciente.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
